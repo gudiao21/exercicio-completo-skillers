@@ -15,7 +15,7 @@
 
 print "Digite um número para informarmo se é impar ou par: "
 number = gets.chomp.to_i
-is_odd = number % 2 == 0
+is_odd = number % 2 == 0 #Retorna verdadeiro ou falso
 if is_odd
   puts "#{number} mod 2 = #{is_odd}, é par"
 else
